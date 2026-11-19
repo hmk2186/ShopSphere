@@ -1,0 +1,136 @@
+/* ==========================================================================
+   ShopSphere Design System - Cobalt & Tangerine Color Palette & Tokens
+   ========================================================================== */
+
+:root,
+[data-theme="light"] {
+  /* Brand Core Colors */
+  --color-primary: #315FEA;
+  --color-primary-hover: #234BCA;
+  --color-primary-active: #19389E;
+  --color-primary-light: #EDF3FF;
+  --color-primary-rgb: 49, 95, 234;
+
+  --color-secondary: #FF8A35;
+  --color-secondary-hover: #E8721E;
+  --color-secondary-active: #C95B0F;
+  --color-secondary-light: #FFF4EC;
+  --color-secondary-rgb: 255, 138, 53;
+
+  /* Surfaces & Backgrounds */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #EDF3FF;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #F8FAFF;
+  --bg-subtle: #F4F7FD;
+  --bg-header: rgba(255, 255, 255, 0.95);
+  --bg-dropdown: #FFFFFF;
+  --bg-modal: #FFFFFF;
+  --bg-input: #FFFFFF;
+  --bg-sidebar: #FFFFFF;
+
+  /* Semantic Form & Table Surface Tokens */
+  --input-bg: #FFFFFF;
+  --input-text: #0F172A;
+  --table-bg: #FFFFFF;
+  --table-text: #0F172A;
+
+  /* Text & Typography */
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+  --text-inverse: #FFFFFF;
+
+  /* Borders & Dividers */
+  --border-color: #E2E8F4;
+  --border-subtle: #EDF2FA;
+  --border-focus: #315FEA;
+
+  /* Semantic Alerts */
+  --color-success: #16A36A;
+  --color-success-bg: #E8F7F0;
+  --color-error: #DC4545;
+  --color-error-bg: #FDECEC;
+  --color-warning: #E5A525;
+  --color-warning-bg: #FEF6E8;
+  --color-info: #2D7FF9;
+  --color-info-bg: #EAF2FE;
+
+  /* Elevation Shadows */
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 16px rgba(49, 95, 234, 0.07);
+  --shadow-lg: 0 12px 32px rgba(49, 95, 234, 0.11);
+  --shadow-card: 0 4px 20px rgba(15, 23, 42, 0.04);
+  --shadow-card-hover: 0 12px 30px rgba(49, 95, 234, 0.12);
+
+  /* Radius & Transitions */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 9999px;
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-theme="dark"] {
+  /* Brand Core Colors in Dark Mode */
+  --color-primary: #3B6BFF;
+  --color-primary-hover: #5680FF;
+  --color-primary-active: #2B57E5;
+  --color-primary-light: #1E2B54;
+  --color-primary-rgb: 59, 107, 255;
+
+  --color-secondary: #FF9447;
+  --color-secondary-hover: #FFA766;
+  --color-secondary-active: #E87A28;
+  --color-secondary-light: #3D291C;
+  --color-secondary-rgb: 255, 148, 71;
+
+  /* Surfaces & Backgrounds */
+  --bg-primary: #151C32;
+  --bg-secondary: #19223D;
+  --bg-card: #1E2746;
+  --bg-card-hover: #242F55;
+  --bg-subtle: #242E50;
+  --bg-header: rgba(21, 28, 50, 0.95);
+  --bg-dropdown: #1E2746;
+  --bg-modal: #1E2746;
+  --bg-input: #1A223C;
+  --bg-sidebar: #19223D;
+
+  /* Semantic Form & Table Surface Tokens */
+  --input-bg: #1A223C;
+  --input-text: #F8FAFC;
+  --table-bg: #1E2746;
+  --table-text: #F8FAFC;
+
+  /* Text & Typography */
+  --text-primary: #FFFFFF;
+  --text-secondary: #E2E8F0;
+  --text-muted: #94A3B8;
+  --text-inverse: #0F172A;
+
+  /* Borders & Dividers */
+  --border-color: #2D3A63;
+  --border-subtle: #232D4E;
+  --border-focus: #3B6BFF;
+
+  /* Semantic Alerts */
+  --color-success: #22C55E;
+  --color-success-bg: #132D21;
+  --color-error: #EF4444;
+  --color-error-bg: #351B1D;
+  --color-warning: #F59E0B;
+  --color-warning-bg: #352A17;
+  --color-info: #38BDF8;
+  --color-info-bg: #152A3C;
+
+  /* Elevation Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.6);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.25);
+  --shadow-card-hover: 0 12px 30px rgba(0, 0, 0, 0.45);
+}
